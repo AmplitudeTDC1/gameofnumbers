@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Game of Numbers</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.jpg" alt="Logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Overview</a>
+            </li>
+            <li class="nav__item">
+              <a href="#case" class="nav__link">The Journey</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">The Episodes</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--=============== OVERVIEW  ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div>
+            <img src="assets/img/home.jpg" alt="Home Image" class="home__img" />
+          </div>
+
+          <div class="home__data">
+            <div class="home__header">
+              <h1 class="home__title">Overview</h1>
+              <h2 class="home__subtitle">Game of Numbers</h2>
+            </div>
+
+            <div class="home__footer">
+              <p class="home__description">
+                Dive into the cutthroat world of high-stakes sales with "Game of
+                Numbers: Sales Showdown," a thrilling reality show where
+                ambition meets strategy. Be a part of aspiring sales
+                professionals battling it out in challenging tasks designed to
+                test your skills, grit, and business acumen.
+              </p>
+
+              <a href="#C" class="button button--flex signup-btn">
+                <span class="button--flex">
+                  <i class="ri-book-3-line"></i> Signup
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =============== SPONSOR ===============
+      <section class="sponsor section">
+        <div class="sponsor__container container grid">
+          <img
+            src="assets/img/sponsor1.png"
+            alt="Sponsor 1"
+            class="sponsor__img"
+          />
+          <img
+            src="assets/img/sponsor2.png"
+            alt="Sponsor 2"
+            class="sponsor__img"
+          />
+          <img
+            src="assets/img/sponsor3.png"
+            alt="Sponsor 3"
+            class="sponsor__img"
+          />
+          <img
+            src="assets/img/sponsor4.png"
+            alt="Sponsor 4"
+            class="sponsor__img"
+          />
+        </div>
+      </section> -->
+
+      <!--=============== SIDEBAR REGISTRATION FORM ===============-->
+      <div class="sidebar-form">
+        <div class="call-action">
+          <span>Signup Form</span>
+        </div>
+
+        <h3>Signup Form</h3>
+
+        <form method="post" action="" name="enquiry-form">
+          <div class="form-group">
+            <input
+              type="text"
+              name="your-name"
+              placeholder="Name"
+              class="form-control"
+            />
+          </div>
+
+          <select name="your-gender" id="gender" class="form-control">
+            <option value="">Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+
+          <div class="form-group">
+            <input
+              type="email"
+              name="your-email"
+              placeholder="Email"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              name="your-phone"
+              placeholder="Phone number"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              name="your-address"
+              placeholder="Address"
+              class="form-control"
+            />
+          </div>
+
+          <input type="submit" value="Send Enquiry" id="submit-btn" />
+        </form>
+      </div>
+
+      <!--=============== THE JOURNEY  ===============-->
+      <section class="case section grid" id="case">
+        <h2 class="section__title section__title-gradient">The Journey</h2>
+
+        <div class="case__container container grid">
+          <div>
+            <img src="assets/img/case.png" alt="Case Image" class="case__img" />
+          </div>
+
+          <div class="case__data">
+            <p class="case__description">
+              Follow the journeys of each contestant, their strengths,
+              weaknesses, and their fight for the ultimate prize. Immerse
+              yourself in the intensity of the challenges with cutting-edge
+              visuals and dynamic editing. Learn from seasoned sales
+              professionals as they analyze the contestants' strategies and
+              provide valuable insights.
+            </p>
+            <a href="#C" class="button button--flex signup-btn">
+              <span class="button--flex">
+                <i class="ri-book-3-line"></i> Signup
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DISCOUNT ===============-->
+      <section class="discount section">
+        <div class="discount__container container grid">
+          <div class="discount__animate">
+            <h2 class="discount__title">More Than Just a Competition</h2>
+            <p class="discount__description">
+              One final challenge. One monumental contract. Witness the ultimate
+              battle of strategy, relationship-building, and closing techniques
+              as the finalists fight for victory.
+            </p>
+            <a href="#C" class="button button--flex signup-btn">
+              <span class="button--flex">
+                <i class="ri-book-3-line"></i> Signup
+              </span>
+            </a>
+          </div>
+
+          <img
+            src="assets/img/chess battle.jpg"
+            alt="Discount Image"
+            class="discount__img"
+          />
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products section" id="products">
+        <h2 class="section__title section__title-gradient products__line">
+          The Episodes
+        </h2>
+
+        <div class="products__container container grid">
+          <article class="products__card">
+            <div class="products__content">
+              <img
+                src="assets/img/product1.png"
+                alt="Product 1"
+                class="products__img"
+              />
+
+              <h3 class="products__title">The Pitch Battle</h3>
+            </div>
+          </article>
+          <article class="products__card">
+            <div class="products__content">
+              <img
+                src="assets/img/product2.jpg"
+                alt="Product 2"
+                class="products__img"
+              />
+
+              <h3 class="products__title">Cold Calling Blitz</h3>
+            </div>
+          </article>
+          <article class="products__card">
+            <div class="products__content">
+              <img
+                src="assets/img/product3.jpg"
+                alt="Product 3"
+                class="products__img"
+              />
+
+              <h3 class="products__title">The Negotiation Challenge</h3>
+            </div>
+          </article>
+          <article class="products__card">
+            <div class="products__content">
+              <img
+                src="assets/img/product3a.jpg"
+                alt="Product 4"
+                class="products__img"
+              />
+
+              <h3 class="products__title">Sales Presentation Showdown</h3>
+            </div>
+          </article>
+
+          <article class="products__card">
+            <div class="products__content">
+              <img
+                src="assets/img/product5.png"
+                alt="Product 5"
+                class="products__img"
+              />
+
+              <h3 class="products__title">Closing the Big Deal</h3>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__socials">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-twitter-line"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-facebook-line"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-youtube-line"></i>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-whatsapp-line"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Alfortal Media. All rights reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== JQUERY ===============-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== CODE JS ===============-->
+    <script src="assets/js/code.js"></script>
+
+    <!--=============== GOOGLE SHEET JS ===============-->
+    <script src="assets/js/Google Sheet.js"></script>
+  </body>
+</html>
